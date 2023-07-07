@@ -1,11 +1,11 @@
 {
-  "name": "Portfolio",
+  "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Antonio Gonzalez <aegonzalez2432@gmail.com>",
+  "author": "Antonio Gonzalez",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aegonzalez2432/Portfolio"
+    "url": ""
   },
   "keywords": [
     "gatsby"

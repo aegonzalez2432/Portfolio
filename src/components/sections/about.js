@@ -125,7 +125,18 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'Java',
+    'Swift',
+    'Haskell',
+    'Rust',
+    'C/C++',
+    'JavaScript (ES6+)',
+    'Python',
+    'MySQL',
+    'Verilog/VHDL',
+    'ObjC',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +146,17 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Antonio and I am a Software Engineer from Chicago, IL. I have a B.S.
+              in Computer Science and Engineering from the{' '}
+              <a href="https://ece.engineering.uiowa.edu/">University of Iowa.</a>
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Armed with a strong educational background and a relentless work ethic, I am poised to
+              embark on a promising path in software development. I have diligently honed my skills
+              through numerous projects, ensuring a solid foundation for the challenges that lie
+              ahead. With unwavering determination and a passion for innovation, I am eager to make
+              a meaningful contribution to the ever-evolving landscape of software engineering.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
