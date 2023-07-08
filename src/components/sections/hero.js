@@ -72,13 +72,8 @@ const Hero = () => {
       </p>
     </>
   );
-  const five = (
-    <a className="email-link" href="https://www.google.com" target="_blank" rel="noreferrer">
-      Contact!
-    </a>
-  );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>
