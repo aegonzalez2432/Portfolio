@@ -5,7 +5,7 @@ module.exports = {
     title: 'Antonio Gonzalez',
     description:
       '.. is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://google.com', // No trailing slash allowed!
+    siteUrl: 'https://hireantonio.com', // No trailing slash allowed!
     image: '', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
